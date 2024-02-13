@@ -1,4 +1,0 @@
-Order allow,deny
-allow from all
-Deny from 117.228.28.36 68.235.33.158
-
