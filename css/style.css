@@ -17,7 +17,7 @@ body {
 
     text-align: center;
     align-items: center;
-    background: #1620ac;
+    background: #0d1152;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
@@ -40,7 +40,7 @@ body {
 
 .search {
   
-    background: #1620ac;
+    background: #0d1152;
    
   margin: 0 auto;
 
@@ -183,7 +183,7 @@ body {
 
 .footer {
 
-    background: #1620ac;
+    background: #0d1152;
     color: white;
     display: flex;
     height: 50px;
