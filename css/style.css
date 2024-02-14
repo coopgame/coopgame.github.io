@@ -40,7 +40,7 @@ body {
 
 .search {
   
-    background: #02121f;;
+    background: #1620ac;
    
   margin: 0 auto;
 
@@ -82,7 +82,7 @@ body {
 }
 
 #searchBox button:hover {
-    background: #1620ac;
+    background: #010107;
     border-radius: 3px;
 }
 
