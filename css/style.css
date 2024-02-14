@@ -106,16 +106,30 @@ body {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
   
 }
-.container :hover{
-    width: calc(33.3%-20px);
+.container:hover {
+    /* Add your hover styles here */
+    background: rgba( 46, 141, 209, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.5 );
+  }
 
-    background: rgba( 46, 141, 209, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 1px );
-    -webkit-backdrop-filter: blur( 1px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  .container:hover .gamename {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #bbd1e0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
 }
+
+
+
+.responsive-img {
+    max-width: 80%;
+    height: auto;
+    margin: 10px;
+}
+
 
 .image img {
     width: 100%;
@@ -159,6 +173,11 @@ body {
 
 
 
+.previous a:hover,
+.next a:hover {
+    background: rgba(74, 146, 198, 1); /* Изменение цвета фона при наведении */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5); /* Изменение тени при наведении */
+}
 
 
 
@@ -186,12 +205,13 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color: #140247;
     text-align: center;
     padding: 5px;
 
     border-radius: 5px;
 }
+
 
 
 
