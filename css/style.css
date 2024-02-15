@@ -211,8 +211,15 @@ body {
 
     border-radius: 5px;
 }
+.h404 {
+    font-size: 48px;
+    color: #050505;
+}
 
+.h1game{
 
+    text-align: center;
+}
 /* 2game */
 
 /* .main2 {
