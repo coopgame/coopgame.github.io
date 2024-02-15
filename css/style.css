@@ -149,9 +149,10 @@ body {
     text-align: center;
     width: 100%;
     flex-wrap: wrap;
-    /* max-width: 950px; */
+    /* max-width: 454px;  */
     justify-content: center;
     margin-bottom: 10px;
+
 
 
 }
@@ -212,7 +213,83 @@ body {
 }
 
 
+/* 2game */
 
+/* .main2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    text-align: left;
+    max-width: 1000px;
+
+}
+
+.diimg{
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+ 
+
+}
+
+.imagegame{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.descr{
+    margin-left: auto;
+    min-width: 460px;
+}
+
+.diimg2 {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+}
+.sysreq {
+   margin-right: 10px;
+    min-width: 460px;
+
+
+}
+.tags {
+
+    min-width: 460px;
+    margin-left: auto;
+}
+
+
+.video {
+    width: 100%;
+    max-width:460px ;
+   
+    text-align: center;
+
+
+}
+.vid1 {
+    width: 100%;
+    min-width:460px ;
+    margin-left: 10px;
+
+
+}
+
+.responsive-img2{
+    width: 100%;
+    min-width: 460px;
+    margin-left: auto;
+
+}
+
+.congame{
+    min-width: 460px;
+    margin-left: auto;
+
+  
+} */
 
 @media screen and (max-width: 960px) {
     .padding {
