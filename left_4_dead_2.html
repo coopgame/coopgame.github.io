@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left 4 Dead 2</title>
+    
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+    
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+    
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+              
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+        
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Left 4 Dead 2</h1>
+        <div class="main">
+            <div class="congame">
+                <img src="img/left_4_dead_2.webp" alt="Left 4 Dead 2" class="responsive-img2">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>
