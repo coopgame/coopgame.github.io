@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Evolution Soccer 6</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Pro Evolution Soccer 6</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Pro Evolution Soccer 6">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>
