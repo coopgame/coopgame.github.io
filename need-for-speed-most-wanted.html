@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Need for Speed: Most Wanted</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Need for Speed: Most Wanted</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Need for Speed: Most Wanted">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

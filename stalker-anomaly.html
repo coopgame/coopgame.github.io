@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.T.A.L.K.E.R. Anomaly</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">S.T.A.L.K.E.R. Anomaly</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="S.T.A.L.K.E.R. Anomaly">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

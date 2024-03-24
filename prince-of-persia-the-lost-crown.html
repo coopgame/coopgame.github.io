@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince of Persia: The Lost Crown</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Prince of Persia: The Lost Crown</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Prince of Persia: The Lost Crown">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

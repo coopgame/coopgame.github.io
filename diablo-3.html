@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diablo 3</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Diablo 3</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Diablo 3">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

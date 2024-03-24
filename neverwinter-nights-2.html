@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neverwinter Nights 2</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Neverwinter Nights 2</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Neverwinter Nights 2">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Legend of Zelda Breath of the Wild</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">The Legend of Zelda Breath of the Wild</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="The Legend of Zelda Breath of the Wild">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

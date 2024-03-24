@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dwarf fortress</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">dwarf fortress</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="dwarf fortress">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

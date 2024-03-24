@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nether: Resurrected</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Nether: Resurrected</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Nether: Resurrected">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

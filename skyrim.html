@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyrim</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Skyrim</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Skyrim">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

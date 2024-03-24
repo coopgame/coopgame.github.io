@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snipperclips Cut it out Together yuzu</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Snipperclips Cut it out Together yuzu</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Snipperclips Cut it out Together yuzu">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>

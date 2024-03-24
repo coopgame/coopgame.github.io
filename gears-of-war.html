@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gears of War</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Gears of War</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Gears of War">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>
