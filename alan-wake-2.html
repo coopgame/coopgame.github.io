@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="assets/favicon.png" rel="icon" sizes="100x100" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Wake 2</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration.">
+    <meta name="keywords" content="coop game, cooperative games, multiplayer games, teamwork, collaboration, fun, friends, family">
+    <meta property="og:image" content="https://coopgame.github.io/img/coopgame.webp">
+    <!-- Twitter -->
+
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="Coop Game" property="twitter:title">
+    <meta content="Explore a wide range of cooperative games to play with your friends and family. Coop Game offers exciting and engaging multiplayer experiences that promote teamwork and collaboration." property="twitter:description">
+    <meta content="ihttps://coopgame.github.io/img/coopgame.webp" property="twitter:image">
+    <!-- Twitter -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="about.html">Contact</a>
+            <a href="#" id="searchLink">SEARCH</a>
+
+        </div>
+
+        <script>
+        document.getElementById('searchLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            var searchBox = document.getElementById('searchBox');
+            if (searchBox.style.display === 'none' || searchBox.style.display === '') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+        </script>
+
+        <div class="search">
+
+            <div id="searchBox" style="display: none;">
+
+                  <form action="https://search.freefind.com/find.html" method="get" target="_blank">
+                  <input type="hidden" name="si" value="16986680">
+                  <input type="hidden" name="pid" value="r">
+                  <input type="hidden" name="n" value="0">
+                  <input type="hidden" name="_charset_" value="">
+                  <input type="hidden" name="bcd" value="÷">
+
+                  <label for="searchInput"></label>
+                  <input id="searchInput" name="query" type="text" size="30" placeholder="Search here...">
+                  <button type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+      <h1 class="h1game">Alan Wake 2</h1>
+        <div class="main">
+            <div class="congame">
+
+
+                <img src="data:image/webp;base64, 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" alt="Alan Wake 2">
+            </div>
+
+        </div>
+
+
+        <div class="footer"><p class="footer">coopgame.github.io. All rights reserved. © 2024</p></div>
+
+
+
+    </div>
+</body>
+</html>
